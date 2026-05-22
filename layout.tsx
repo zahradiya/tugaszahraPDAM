@@ -1,7 +1,6 @@
-import AdminSidebar from "@/components/AdminSidebar"
 
 export const metadata = {
-   title: 'Dashboard | PDAM',
+   title: 'Login | Fooder',
    description: 'Praktikum SMK Telkom Malang',
 }
 
@@ -13,10 +12,7 @@ type PropsLayout = {
 
 const RootLayout = ({ children }: PropsLayout) => {
    return (
-       <div><AdminSidebar > {children}</AdminSidebar>
-        
-       
-       </div>
+       <div>{children}</div>
    )
 }
 
